@@ -8,7 +8,10 @@ public class Fetcher {
     Fetcher(URL _url){
         this.url = _url;
     }
-    public void login();
+    public void login(String user, String password){
+
+    }
+
     public String getSite(){
         String content = "";
         try {
